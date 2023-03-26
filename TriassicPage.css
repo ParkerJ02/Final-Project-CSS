@@ -1,0 +1,88 @@
+/*This is where I format the title of the document, "Dino Discovery"*/
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 37pt;
+    text-align: justify;
+    padding: 15px 0;
+    margin-left: 50px;
+    background: linear-gradient(to right, #7902FF, #1120FF, #1E71FF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/*This is where I format the background of the title*/
+.title-background {
+    width: 97%;
+    height: 90px;
+    border-radius: 30px;
+    background: linear-gradient(125deg, #d5e5fa, #f2f2f7, #f7dfec);
+    margin-left: 25px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-gap: 15px;
+    font-family: 'Lato';
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 200px;
+    margin-left: 170px;
+}
+
+.item {
+    padding: 70px;
+    font-size: 1.5em;
+    border: 3px solid orange;
+}
+
+.a {
+    background: white;
+    order: 1;
+}
+
+.b {
+    background: white;
+    order: 2;
+}
+
+.c {
+    background: white;
+    order: 3;
+}
+
+.d {
+    background: white;
+    order: 4;
+}
+
+.e {
+    background: white;
+    order: 5;
+}
+
+/*This is where I format the list of options that appear at the top of the screen*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background: linear-gradient(to right, #7902FF, #1120FF, #1E71FF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
